@@ -1,0 +1,149 @@
+*{margin: outo;}
+div
+{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    /* background-image: url(desktopwallpaper.jpg); */
+    background-color:silver;
+     width: 100%; 
+     background-size: cover; 
+    
+
+}
+header{
+    color:rgba(38, 39, 54, 0.973);
+     font-family:Franklin; 
+     text-align:center;
+     text-shadow: 2px 2px white;
+     font-size: 65px;
+}
+img
+{
+border-radius: 50%;
+width: 25%;
+}
+h1
+{
+text-align: center;
+font-size: 45px;
+padding-top: 30px;
+text-align:center; 
+
+}
+p
+{
+    color:#2C3378;
+    font-size: 30px;
+    text-align: center;
+}
+.v{
+    font-size: 35px;
+
+    text-decoration:underline ;
+    text-decoration-color:darkcyan;
+}
+.x{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+     color:  rgb(16, 34, 202); 
+    margin-left:350px;
+}
+/* Social Media Icons */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    text-decoration:none;
+    color:rgb(3, 15, 31);
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #e64a41;
+}
+
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color:#e25714 ;
+}
+

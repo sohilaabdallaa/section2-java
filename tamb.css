@@ -1,0 +1,27 @@
+.x{
+	background-color: gray;
+	text-align:center;
+	padding-bottom:50px;
+}
+.t{
+	margin-top: -50px;
+	padding:40px;
+}
+.y{
+	background-color: blue;
+	text-align: center;
+	padding: 30px;
+
+}
+.s{
+	background-color: green;
+	text-align: center;
+	padding: 30px;
+	
+}
+.o{
+	background-color: yellow;
+	text-align: center;
+	padding: 30px;
+
+}

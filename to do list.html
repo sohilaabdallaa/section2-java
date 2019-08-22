@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <!-- jquery files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="to do list.js"></script>
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+<script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"   integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="   crossorigin="anonymous"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+        <link rel="stylesheet" type="text/css" href="to do list.css"/>   
+
+	</head>
+	<body>
+
+        <p id ="title">To-Do List</p>
+        <p id ="tasksleft">You have no tasks left!<p>
+        <div id ="todoarea">
+<div id="entertask">
+        <input type="text" id="task"/>
+         <button id="add"class="waves-effect waves-light btn">Add Task</button>
+        </div>
+        
+<!--The task ui-->
+
+<div id = "taskdiv" class="row">
+
+<!--In progress goes here-->
+
+<div id= "progressdiv" class="col s5 offset-s2">
+<p id ="inprogresstitle">In Pending:</p>
+<div id ="progressdiv">
+    <ul id="tasklist"><ul>
+</div> 
+</div>
+<!--Complete goes here-->
+
+<div id= "donediv" class="col s5">
+ <p id ="completetitle">Complete:</p>
+ <ul id="donelist">
+
+        </ul>
+        </div>
+         <button id ="clearAll" class = "md-button">Clear completed tasks</button>
+</div>
+	</body>
+</html>

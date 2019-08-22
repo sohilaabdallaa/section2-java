@@ -1,0 +1,137 @@
+#add{
+	border-radius: 8px;
+	background-color:#4b2110;
+	/* transition-duration: 0.5s; */
+	font-family: 'Roboto', Times;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	text-decoration: none;
+	width:100%;
+	margin:auto;
+}
+
+
+#title{
+	font-family: 'Roboto', Times;
+	font-size: 65px;
+	text-align:center;
+	 margin-bottom: 0px;
+	border-bottom: 0px; 
+}
+
+#title:hover{ 
+	animation: stroke-offset 9s infinite linear;
+}
+   
+#tasksleft{
+	font-size: 18px;
+	border-top:0px;
+	margin-top: 0px;
+	text-align: center;
+
+}
+
+#tasklist{
+    font-family: 'Roboto' Times;
+}
+
+
+.d.md-button{
+	background-color:randomColor;
+	font-family: 'Roboto', Times;
+	font-size:0.3em;
+	color:white;
+	min-width: 0.7em;
+	min-height: 0.5em;
+	width: auto;
+	margin-left:1em;
+	height: auto; 
+}
+
+.d.md-button:hover{
+	box-shadow: 0 7px 15px 0 #312929;
+}
+
+
+#todoarea{
+	width:70%;
+    margin: 0 auto;
+    color:rgb(3, 102, 102) ;
+}
+
+#entertask{
+	margin: 0 auto;
+	max-width:50%;
+}
+
+
+.listItem{
+	font-size: 2.1em;
+	cursor:grab;
+	cursor: -webkit-grab;
+
+}
+
+
+
+
+#taskdiv{
+	text-align: center;
+	width:100%;
+
+}
+
+
+#progressdiv{
+	text-align: left;
+	
+
+	
+}
+
+
+#donediv{
+	background-color:white;
+	text-align: left;
+}
+
+#clearAll{
+	background-color:rgb(199, 184, 184);
+	text-align: center;
+	width:50%;
+	margin:auto;
+	
+
+}
+
+
+.checkbox{
+	
+}
+
+#donelist{
+    text-align: left;
+    /* the hand on word */
+	cursor:grab;
+	cursor: -webkit-grab;
+
+}
+
+.complete{
+	font-size:25px;
+
+}
+
+#completetitle{
+	text-align:left;
+	font-size:1.5em;
+	font-family:'Roboto';
+
+}
+
+#inprogresstitle{
+	font-size:1.5em;
+	text-align:center;
+}
+
